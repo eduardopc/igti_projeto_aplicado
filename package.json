@@ -1,14 +1,14 @@
 {
   "name": "igti_projeto_aplicado",
   "version": "1.0.0",
-  "description": "",
+  "description": "TestRunner",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/server.js",
     "dev:debug": "nodemon --inspect src/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Eduardo Pacheco Celeste",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -17,6 +17,7 @@
     "express-async-errors": "^3.1.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.7.12",
+    "node-cmd": "^3.0.0",
     "nodegit": "^0.26.2",
     "rimraf": "^3.0.0",
     "youch": "^2.0.10",
